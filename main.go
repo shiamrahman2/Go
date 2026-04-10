@@ -36,6 +36,13 @@ func practice(){
 		fmt.Println("Number Not Matched")
 	}
 }
+func input(){
+	fmt.Println("Welcome to our Application")
+	var name string
+	fmt.Println("Enter your name-")
+	fmt.Scanln(&name)
+	fmt.Println("Thanks ",name," to use our Application")
+}
 func sum(num1 int,num2 int){
 	Sum:=num1+num2
 	fmt.Println(Sum)
@@ -54,11 +61,12 @@ func getNumbers(num1 int,num2 int)(int,int){
 func main(){
     // practice();
 	// sum(10,20)
-	 a:=30
-	 b:=-3
-	 //value:=add(a,b)
-	 //fmt.Println(value)
-	 sum,mul:=getNumbers(a,b)
-	 fmt.Println(sum);
-	 fmt.Println(mul)
+	//  a:=30
+	//  b:=-3
+	//  //value:=add(a,b)
+	//  //fmt.Println(value)
+	//  sum,mul:=getNumbers(a,b)
+	//  fmt.Println(sum);
+	//  fmt.Println(mul)
+	input()
 }
