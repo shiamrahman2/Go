@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "example.com/mathlib"
 
 func practice() {
 	// print
@@ -73,5 +74,5 @@ func main() {
 	//  fmt.Println(sum);
 	//  fmt.Println(mul)
 	//input()
-	add(5, 7)
+	mathlib.Add(5,6)
 }
