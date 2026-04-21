@@ -6,6 +6,10 @@ type User struct{
 	Age int
 }
 
+func printUserDetails(usr User){
+	fmt.Println("Name->",usr.Name)
+	fmt.Println("Age->",usr.Age)
+}
 func main(){
     var user1 User
 
@@ -13,14 +17,12 @@ func main(){
 		Name:"Shiam",
 		Age:22,
 	}
-    fmt.Println("Name->",user1.Name)
-	fmt.Println("Age->",user1.Age)
+    printUserDetails(user1)
 	user2:=User{
 		Name:"Sami",
 		Age:24,
 	}
-	fmt.Println("Name->",user2.Name)
-	fmt.Println("Age->",user2.Age)
+	printUserDetails(user2)
 }
 /*
 This program demonstrates how to use struct in Go.
