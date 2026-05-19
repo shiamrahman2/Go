@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Product
+url: "{{address}}/Products"
+method: POST
+headers:
+  Authorization: "Bearer {{jwt_secret}} "
+body:
+  type: json
+  content: "{\r
+
+    \   \"tittle\":\"Banana\",\r
+
+    \   \"description\":\"I Love Banana\",\r
+
+    \   \"price\":180,\r
+
+    \   \"imageURL\":\"abc\"\r
+
+    }"
+order: 4385274707062164

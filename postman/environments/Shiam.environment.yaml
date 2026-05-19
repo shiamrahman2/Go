@@ -1,0 +1,6 @@
+name: Shiam
+values:
+  - key: address
+    value: ''
+  - key: jwt_secret
+    value: ''

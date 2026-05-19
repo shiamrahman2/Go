@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Product
+url: "{{address}}/Products/7"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 7,\r
+
+    \    \"tittle\": \"Banana\",\r
+
+    \    \"description\": \"I Hate banana\",\r
+
+    \    \"price\": 180,\r
+
+    \    \"imageURL\": \"abc\"\r
+
+    }"
+order: 1778443254634
